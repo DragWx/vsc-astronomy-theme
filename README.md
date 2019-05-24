@@ -5,6 +5,8 @@ Math-heavy equations stay neutral with minimal variance, so separators such as s
 
 Colorful, but without bright, vibrant colors, allowing you and your extensions to use those colors for yourself.
 
+![Demonstration screenshot](images/screen1.png)
+
 ## Color Strategy
 * Logic-ish things are cooler
 * Value-ish things are warmer
