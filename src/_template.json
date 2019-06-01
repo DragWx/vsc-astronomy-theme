@@ -1,0 +1,301 @@
+{
+	"name": "Astronomy",
+	"type": "dark",
+	"colors": {
+		"editorPane.background": "#000000",
+		"editor.background": "#121212",
+		"editor.foreground": "{{n}}",
+		"editor.lineHighlightBackground": "#181818",
+		"editor.selectionBackground": "#444444",
+		"editorRuler.foreground": "#444444",
+		"editorLineNumber.foreground": "#444444",
+		"editorLineNumber.activeForeground": "#777777",
+		"editorBracketMatch.background": "#666666",
+		"editorBracketMatch.border": "#00000000",
+		"editorIndentGuide.background": "#222222",
+		"editorIndentGuide.activeBackground": "#444444",
+		
+		"statusBar.noFolderBackground": "#000000",
+		"statusBar.noFolderForeground": "#888888",
+		"statusBar.background": "#222222",
+		"statusBar.foreground": "#888888",
+		"statusBar.debuggingBackground": "{{v2-25}}",
+		"statusBar.debuggingForeground": "{{v2-75}}",
+		
+		"activityBar.background": "#000000",
+		"activityBar.foreground": "#AAAAAA",
+		"activityBarBadge.background": "{{v3-75}}",
+		"activityBarBadge.foreground": "#EEEEEE",
+		"sideBar.background": "#181818",
+		"sideBar.foreground": "#AAAAAA",
+		"sideBar.border": "#000000",
+		"sideBarTitle.foreground": "{{l3}}",
+		"sideBarSectionHeader.foreground": "{{l1-75}}",
+		"sideBarSectionHeader.background": "#222222",
+		"list.focusBackground": "{{v3-50}}",
+		"list.focusForeground": "#EEEEEE",
+		"list.activeSelectionBackground": "{{v3-50}}",
+		"list.activeSelectionForeground": "#EEEEEE",
+		"list.inactiveSelectionBackground": "#333333",
+		"list.highlightForeground": "{{v3}}",
+
+		"dropdown.background": "{{l3-33}}",
+		"dropdown.border": "{{l3-50}}",
+		"dropdown.listBackground": "#222222",
+
+		"input.background": "{{v3-33}}",
+		"input.border": "{{v3-50}}",
+		"input.placeholderForeground": "{{v3-67}}",
+		"focusBorder": "#666666",
+
+		"breadcrumb.background": "#222222",
+		"breadcrumb.foreground": "#AAAAAA",
+		"breadcrumb.activeSelectionForeground": "#EEEEEE",
+		"breadcrumb.focusForeground": "#EEEEEE",
+
+		"titleBar.activeBackground": "#222222",
+		"titleBar.activeForeground": "#AAAAAA",
+		"menu.background": "#222222",
+		"menu.foreground": "#CCCCCC",
+		"menu.separatorBackground": "#888888",
+		"menu.selectionBackground": "{{v3-75}}",
+		"menu.selectionForeground": "#EEEEEE",
+		"menubar.selectionBackground": "{{v3-50}}",
+		"menubar.selectionForeground": "#EEEEEE",
+
+		"panel.background": "#181818",
+		"panel.border": "#000000",
+		"panelTitle.activeForeground": "#AAAAAA",
+		"panelTitle.activeBorder": "{{l3}}",
+
+		"editorGroupHeader.tabsBackground": "#181818",
+		"tab.activeBackground": "#121212",
+		"tab.activeForeground": "#AAAAAA",
+		"tab.inactiveBackground": "#181818",
+		"tab.border": "#00000000",
+
+		"badge.background": "{{v3-50}}",
+		"badge.foreground": "#EEEEEE",
+		"button.background": "{{l3-75}}",
+		"button.foreground": "#EEEEEE"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments\n",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "{{v3}}"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "{{v4}}"
+			}
+		},
+		{
+			"name": "Very Logical",
+			"scope": [
+				"keyword.control",
+				"keyword.operator.new",
+				"keyword.other"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "{{l3}}"
+			}
+		},
+		{
+			"name": "Very Logical (Undecorated)",
+			"scope": [
+				"punctuation",
+				"keyword.operator.comparison",
+				"keyword.operator.relational",
+				"keyword.operator.logical",
+				"meta.brace"
+			],
+			"settings": {
+				"foreground": "{{l3}}"
+			}
+		},
+		{
+			"name": "Slightly Logical",
+			"scope": [
+				"constant.language",
+				"source.css support.constant"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "{{l1}}"
+			}
+		},
+		{
+			"name": "Slightly Logical (Undecorated)",
+			"scope": [
+				"entity.name.function",
+				"support.function",
+				"entity.name.tag",
+				"markup.heading"
+			],
+			"settings": {
+				"foreground": "{{l1}}"
+			}
+		},
+		{
+			"name": "Neutral",
+			"scope": [
+				"meta.template.expression",
+				"string.unquoted.heredoc.php",
+				"punctuation.definition.variable.php",
+				"variable.other.php",
+				"meta.embedded.block.php",
+				"meta.interpolation",
+				"text.html.php",
+				"variable.other.php"
+			],
+			"settings": {
+				"foreground": "{{n}}"
+			}
+		},
+		{
+			"name": "Very Valuey (Undecorated)",
+			"scope": [
+				"storage",
+				"keyword.other.namespace",
+				"keyword.operator.assignment",
+				"keyword.operator.increment",
+				"keyword.operator.decrement",
+				"punctuation.definition.bold",
+				"punctuation.definition.italic",
+				"punctuation.definition.underline",
+				"meta.brace.square",
+				"punctuation.definition.begin.bracket.square",
+				"punctuation.definition.end.bracket.square"
+			],
+			"settings": {
+				"foreground": "{{v3}}"
+			}
+		},
+		{
+			"name": "Moderately Valuey",
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"support.type",
+				"support.class",
+				"keyword.type"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "{{v2}}"
+			}
+		},
+		{
+			"name": "Moderately Valuey (Undecorated)",
+			"scope": [
+				"keyword.operator.type",
+				"keyword.operator.optional"
+			],
+			"settings": {
+				"foreground": "{{v2}}"
+			}
+		},
+		{
+			"name": "Slightly Valuey (Undecorated)",
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit",
+				"variable.other.property",
+				"variable.other.constant.property",
+				"support.variable.property",
+				"meta.object-literal.key",
+				"entity.other.attribute-name",
+				"markup.bold",
+				"markup.italic",
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "{{v1}}"
+			}
+		},
+		{
+			"name": "Markup: italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup: bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: underline",
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup: heading",
+			"scope": [
+				"markup.heading"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#6796e6"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cd9731"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#f44747"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#b267e6"
+			}
+		}
+	]
+}

@@ -9,7 +9,7 @@ Equations stay neutral with minimal variance, so separators like strings and
 brackets are the only things that stick out.
 
 There are no bright, vibrant colors; you and your extensions are free to use
-them instead.
+those for yourself.
 
 Also included is a red-green colorblind accessible version of this theme.
 

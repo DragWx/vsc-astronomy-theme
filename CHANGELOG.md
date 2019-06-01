@@ -1,6 +1,6 @@
 # Change Log
 
-## Unpublished
+## 0.2.0
 
 ### Added
 - Red-Green colorblind accessible theme

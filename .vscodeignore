@@ -3,4 +3,6 @@
 .gitignore
 .git/**
 images/**
+node_modules/**
+src/**
 vsc-extension-quickstart.md
