@@ -11,9 +11,11 @@ brackets are the only things that stick out.
 There are no bright, vibrant colors; you and your extensions are free to use
 those for yourself.
 
+![Demonstration screenshot](images/screen1.png)
+
 Also included is a red-green colorblind accessible version of this theme.
 
-![Demonstration screenshot](images/screen1.png)
+![Colorblind demonstration screenshot](images/colorblind.png)
 
 ## Color Strategy
 * Logic-ish things are cooler
