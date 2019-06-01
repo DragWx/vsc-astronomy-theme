@@ -1,7 +1,7 @@
 {
     "name": "astronomy-theme",
     "displayName": "Astronomy",
-    "description": "A straightforward warm/neutral/cool theme for Visual Studio Code",
+    "description": "A dichromatic warm/neutral/cool theme for Visual Studio Code",
     "publisher": "DragWx",
     "icon": "astronomy-icon.png",
     "version": "0.1.0",

@@ -1,9 +1,17 @@
 # Astronomy
-Source code starts at neutral white, then shifts warmer/darker or cooler/darker.
+Astronomy is a dark, dichromatic color theme meant for keeping things
+straightforward and functional.
 
-Math-heavy equations stay neutral with minimal variance, so separators such as strings and brackets are all that stick out.
+Source code starts at neutral white, then shifts either warmer to represent
+value, or cooler to represent logic. The stronger the tint, the darker it gets.
 
-Colorful, but without bright, vibrant colors, allowing you and your extensions to use those colors for yourself.
+Equations stay neutral with minimal variance, so separators like strings and
+brackets are the only things that stick out.
+
+There are no bright, vibrant colors; you and your extensions are free to use
+them instead.
+
+Also included is a red-green colorblind accessible version of this theme.
 
 ![Demonstration screenshot](images/screen1.png)
 
@@ -13,3 +21,7 @@ Colorful, but without bright, vibrant colors, allowing you and your extensions t
 * The stronger the color, the darker it gets
 * Declarative things tend to be stronger
 * Equationy things tend to be neutral
+
+## Tips
+* Although *any* font is fine, the font featured in the screenshots is [Iosevka Slab](https://github.com/be5invis/Iosevka).
+* This theme works well with [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2).
