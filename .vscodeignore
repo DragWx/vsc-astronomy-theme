@@ -5,4 +5,5 @@
 images/**
 node_modules/**
 src/**
+gulpfile.js
 vsc-extension-quickstart.md
