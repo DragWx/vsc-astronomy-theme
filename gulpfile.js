@@ -22,7 +22,7 @@ function scaleColorHex(color, percent) {
     return out;
 }
 
-gulp.task("build", function() {
+function build(done) {
     // Define color variants here
     var palettes = ["standard", "colorblind"];
     var templateContent = fs.readFileSync("src/_template.json").toString();
@@ -46,9 +46,13 @@ gulp.task("build", function() {
         var outContent = mustache.render(templateContent, paletteData);
         // Create the result file
         fs.writeFileSync(`themes/astronomy-${currPalette}-color-theme.json`, outContent);
-    })
-});
+    });
+    done();
+};
 
-gulp.task("default", ["build"], function() {
+function watch() {
     gulp.watch('src/**/*.json', build);
-});
+};
+
+exports.default = build;
+exports.watch = watch;

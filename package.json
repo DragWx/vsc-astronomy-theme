@@ -30,8 +30,9 @@
         "type": "git",
         "url": "https://github.com/DragWx/vsc-astronomy-theme.git"
     },
-    "dependencies": {
-        "gulp": "3.9.1",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^4.0.2",
         "mustache": "^3.0.1"
     }
 }
