@@ -24,7 +24,7 @@ function scaleColorHex(color, percent) {
 
 function build(done) {
     // Define color variants here
-    var palettes = ["standard", "colorblind"];
+    var palettes = ["standard", "colorblind", "miami"];
     var templateContent = fs.readFileSync("src/_template.json").toString();
     var shades = [75, 67, 50, 33, 25];
     palettes.forEach(currPalette => {

@@ -1,5 +1,11 @@
 # Change Log
 
+## Unreleased
+
+### Modified
+- UI background/foreground colors now come from palette files
+
+
 ## 0.2.0
 
 ### Added
