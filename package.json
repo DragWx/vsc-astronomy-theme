@@ -4,12 +4,15 @@
     "description": "A dichromatic warm/neutral/cool theme for Visual Studio Code",
     "publisher": "DragWx",
     "icon": "astronomy-icon.png",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "engines": {
         "vscode": "^1.33.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "dark", "light", "minimal", "color blind"
     ],
     "contributes": {
         "themes": [
@@ -22,6 +25,11 @@
                 "label": "Astronomy Colorblind",
                 "uiTheme": "vs-dark",
                 "path": "./themes/astronomy-colorblind-color-theme.json"
+            },
+            {
+                "label": "Astronomy Light",
+                "uiTheme": "vs",
+                "path": "./themes/astronomy-light-standard-color-theme.json"
             }
         ]
     },

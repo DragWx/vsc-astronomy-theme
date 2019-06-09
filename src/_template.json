@@ -1,8 +1,8 @@
 {
-	"name": "Astronomy",
-	"type": "dark",
+	"name": "{{name}}",
+	"type": "{{type}}",
 	"colors": {
-		"editorPane.background": "#000000",
+		"editorPane.background": "{{negative}}",
 		"editor.background": "{{b-25}}",
 		"editor.foreground": "{{n}}",
 		"editor.lineHighlightBackground": "{{b-33}}",
@@ -15,20 +15,20 @@
 		"editorIndentGuide.background": "{{b-50}}",
 		"editorIndentGuide.activeBackground": "{{b}}",
 		
-		"statusBar.noFolderBackground": "#000000",
+		"statusBar.noFolderBackground": "{{negative}}",
 		"statusBar.noFolderForeground": "{{n-50}}",
 		"statusBar.background": "{{b-50}}",
 		"statusBar.foreground": "{{n-50}}",
 		"statusBar.debuggingBackground": "{{v2-25}}",
 		"statusBar.debuggingForeground": "{{v2-75}}",
 		
-		"activityBar.background": "#000000",
+		"activityBar.background": "{{negative}}",
 		"activityBar.foreground": "{{n-67}}",
 		"activityBarBadge.background": "{{v3-75}}",
 		"activityBarBadge.foreground": "{{n}}",
 		"sideBar.background": "{{b-33}}",
 		"sideBar.foreground": "{{n-67}}",
-		"sideBar.border": "#000000",
+		"sideBar.border": "{{negative}}",
 		"sideBarTitle.foreground": "{{l3}}",
 		"sideBarSectionHeader.foreground": "{{l1-75}}",
 		"sideBarSectionHeader.background": "{{b-50}}",
@@ -64,7 +64,7 @@
 		"menubar.selectionForeground": "{{n}}",
 
 		"panel.background": "{{b-33}}",
-		"panel.border": "#000000",
+		"panel.border": "{{negative}}",
 		"panelTitle.activeForeground": "{{n-67}}",
 		"panelTitle.activeBorder": "{{l3}}",
 
