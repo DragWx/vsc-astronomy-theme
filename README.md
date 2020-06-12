@@ -17,7 +17,7 @@ Also included is a red-green colorblind accessible version of this theme.
 
 ![Colorblind demonstration screenshot](images/colorblind.png)
 
-A light version is also available.
+A light version is also included.
 
 ![Light theme demonstration screenshot](images/light.png)
 
