@@ -2,7 +2,7 @@
 	"name": "Astronomy Light",
 	"type": "light",
 	"colors": {
-		"editorPane.background": "#BBBBBB",
+		"editorPane.background": "#cccccc",
 		"editor.background": "#eeeeee",
 		"editor.foreground": "#222222",
 		"editor.lineHighlightBackground": "#e9e9e9",
@@ -15,20 +15,22 @@
 		"editorIndentGuide.background": "#dddddd",
 		"editorIndentGuide.activeBackground": "#BBBBBB",
 		
-		"statusBar.noFolderBackground": "#BBBBBB",
+		"statusBar.noFolderBackground": "#cccccc",
 		"statusBar.noFolderForeground": "#919191",
 		"statusBar.background": "#dddddd",
 		"statusBar.foreground": "#919191",
 		"statusBar.debuggingBackground": "#eed5c4",
 		"statusBar.debuggingForeground": "#cc804d",
 		
-		"activityBar.background": "#BBBBBB",
+		"activityBar.background": "#cccccc",
 		"activityBar.foreground": "#6b6b6b",
+		"activityBar.inactiveForeground": "#919191",
+		"activityBar.activeBackground": "#e9e9e9",
 		"activityBarBadge.background": "#e69966",
 		"activityBarBadge.foreground": "#222222",
 		"sideBar.background": "#e9e9e9",
 		"sideBar.foreground": "#6b6b6b",
-		"sideBar.border": "#BBBBBB",
+		"sideBar.border": "#cccccc",
 		"sideBarTitle.foreground": "#4499DD",
 		"sideBarSectionHeader.foreground": "#5a73c0",
 		"sideBarSectionHeader.background": "#dddddd",
@@ -47,6 +49,8 @@
 		"input.border": "#eebb99",
 		"input.placeholderForeground": "#e9a477",
 		"focusBorder": "#b7b7b7",
+		"inputOption.activeBorder": "#e9a477",
+		"inputOption.activeBackground": "#e9a477",
 
 		"breadcrumb.background": "#dddddd",
 		"breadcrumb.foreground": "#6b6b6b",
@@ -64,7 +68,7 @@
 		"menubar.selectionForeground": "#222222",
 
 		"panel.background": "#e9e9e9",
-		"panel.border": "#BBBBBB",
+		"panel.border": "#cccccc",
 		"panelTitle.activeForeground": "#6b6b6b",
 		"panelTitle.activeBorder": "#4499DD",
 

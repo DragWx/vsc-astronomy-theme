@@ -24,6 +24,8 @@
 		
 		"activityBar.background": "{{negative}}",
 		"activityBar.foreground": "{{n-67}}",
+		"activityBar.inactiveForeground": "{{n-50}}",
+		"activityBar.activeBackground": "{{b-33}}",
 		"activityBarBadge.background": "{{v3-75}}",
 		"activityBarBadge.foreground": "{{n}}",
 		"sideBar.background": "{{b-33}}",
@@ -47,6 +49,8 @@
 		"input.border": "{{v3-50}}",
 		"input.placeholderForeground": "{{v3-67}}",
 		"focusBorder": "{{n-33}}",
+		"inputOption.activeBorder": "{{v3-67}}",
+		"inputOption.activeBackground": "{{v3-67}}",
 
 		"breadcrumb.background": "{{b-50}}",
 		"breadcrumb.foreground": "{{n-67}}",

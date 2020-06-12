@@ -1,5 +1,15 @@
 # Change Log
 
+# 0.3.1
+### Modified
+- "Negative" color for light themes is now b-75 instead of b, which allows the
+activity bar to have better contrast.
+- Active tab on activity bar now has the panel BG color, to make it look like
+a tab.
+- Adjusted inputOption colors to make selected options more visible. (Check the
+buttons in the "find" dialog's input box)
+
+
 # 0.3.0
 
 ### Added

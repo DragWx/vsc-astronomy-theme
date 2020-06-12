@@ -24,6 +24,8 @@
 		
 		"activityBar.background": "#000000",
 		"activityBar.foreground": "#a69f98",
+		"activityBar.inactiveForeground": "#7c7772",
+		"activityBar.activeBackground": "#17131d",
 		"activityBarBadge.background": "#8c4c99",
 		"activityBarBadge.foreground": "#f8eee4",
 		"sideBar.background": "#17131d",
@@ -47,6 +49,8 @@
 		"input.border": "#5d3366",
 		"input.placeholderForeground": "#7d4488",
 		"focusBorder": "#514e4b",
+		"inputOption.activeBorder": "#7d4488",
+		"inputOption.activeBackground": "#7d4488",
 
 		"breadcrumb.background": "#241e2c",
 		"breadcrumb.foreground": "#a69f98",

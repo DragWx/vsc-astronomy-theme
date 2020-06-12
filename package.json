@@ -12,7 +12,10 @@
         "Themes"
     ],
     "keywords": [
-        "dark", "light", "minimal", "color blind"
+        "dark",
+        "light",
+        "minimal",
+        "color blind"
     ],
     "contributes": {
         "themes": [
@@ -41,6 +44,6 @@
     "dependencies": {},
     "devDependencies": {
         "gulp": "^4.0.2",
-        "mustache": "^3.0.1"
+        "mustache": "^3.2.1"
     }
 }

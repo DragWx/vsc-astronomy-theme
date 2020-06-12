@@ -36,14 +36,6 @@ function build(done) {
     palettes.forEach(currPalette => {
         // Parse current palette
         var paletteData = JSON.parse(fs.readFileSync(`src/${currPalette}.json`));
-        // Create "negative space" color
-        if (paletteData["negative"] === undefined) {
-            if (paletteData["type"] == "light") {
-                paletteData["negative"] = paletteData["b"];
-            } else {
-                paletteData["negative"] = "#000000";
-            }
-        }
         // Create the different shades of each color. Detect which keys are
         // colors by checking if the first character of the value is '#'.
         var toShade = Object.keys(paletteData).filter(key => paletteData[key].charAt(0) == "#");
@@ -57,6 +49,14 @@ function build(done) {
                 }
             })
         })
+        // Create "negative space" color
+        if (paletteData["negative"] === undefined) {
+            if (paletteData["type"] == "light") {
+                paletteData["negative"] = paletteData["b-75"];
+            } else {
+                paletteData["negative"] = "#000000";
+            }
+        }
         // Render template with palette
         var outContent = mustache.render(templateContent, paletteData);
         // Create the result file
