@@ -1,6 +1,13 @@
 # Change Log
 
+# 0.3.2
+
+### Modified
+- "Remote Host" button on status bar adjusted to still be distinct but not stand
+out as much.
+
 # 0.3.1
+
 ### Modified
 - "Negative" color for light themes is now b-75 instead of b, which allows the
 activity bar to have better contrast.

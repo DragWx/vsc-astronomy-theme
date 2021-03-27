@@ -21,6 +21,8 @@
 		"statusBar.foreground": "{{n-50}}",
 		"statusBar.debuggingBackground": "{{v2-25}}",
 		"statusBar.debuggingForeground": "{{v2-75}}",
+		"statusBarItem.remoteBackground": "{{l3-25}}",
+		"statusBarItem.remoteForeground": "{{l3}}",
 		
 		"activityBar.background": "{{negative}}",
 		"activityBar.foreground": "{{n-67}}",

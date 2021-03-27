@@ -46,6 +46,6 @@ Inside the `src` directory are several small JSON files containing some color de
 Several extra colors are derived from the palette file during the build process, these are **interpolated colors**.
 
 * `v1-75`: This means color `v1` at `75%`. If the theme is dark, lower percentages darken the color. If the theme is light, lower percentages lighten the color. Currently, valid percentages are 25, 33, 50, 67, and 75.
-* `negative`: This color is either black if the theme is dark, or `b` if the theme is light. Its intended use is for negative space and dividers in the UI.
+* `negative`: This color is either black if the theme is dark, or `b-75` if the theme is light. Its intended use is for negative space and dividers in the UI.
 
 You are free to override any interpolated colors by specifying them in the palette file directly. For example, defining `v1-25` in the palette file will override the auto-generated `v1-25`.

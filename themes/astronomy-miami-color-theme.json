@@ -21,6 +21,8 @@
 		"statusBar.foreground": "#7c7772",
 		"statusBar.debuggingBackground": "#3b2233",
 		"statusBar.debuggingForeground": "#b26699",
+		"statusBarItem.remoteBackground": "#0c222e",
+		"statusBarItem.remoteForeground": "#3388bb",
 		
 		"activityBar.background": "#000000",
 		"activityBar.foreground": "#a69f98",
