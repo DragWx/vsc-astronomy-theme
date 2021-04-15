@@ -122,7 +122,9 @@
 			"scope": [
 				"keyword.control",
 				"keyword.operator.new",
-				"keyword.other"
+				"keyword.other",
+				"string.regexp support.other.match.begin",
+				"string.regexp support.other.match.end"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -136,6 +138,9 @@
 				"keyword.operator.comparison",
 				"keyword.operator.relational",
 				"keyword.operator.logical",
+				"keyword.operator.or",
+				"keyword.operator.disjunction",
+				"string.regexp keyword.operator.lookahead",
 				"meta.brace"
 			],
 			"settings": {
@@ -159,7 +164,8 @@
 				"entity.name.function",
 				"support.function",
 				"entity.name.tag",
-				"markup.heading"
+				"markup.heading",
+				"string.regexp keyword.operator.quantifier"
 			],
 			"settings": {
 				"foreground": "#2244AA"
@@ -218,7 +224,12 @@
 			"name": "Moderately Valuey (Undecorated)",
 			"scope": [
 				"keyword.operator.type",
-				"keyword.operator.optional"
+				"keyword.operator.optional",
+				"string.regexp constant.other.character-class",
+				"string.regexp punctuation.definition.character-class",
+				"string.regexp punctuation.character.set",
+				"string.regexp support.other.escape.special",
+				"string.regexp support.other.match.any"
 			],
 			"settings": {
 				"foreground": "#BB5511"
@@ -234,6 +245,9 @@
 				"support.variable.property",
 				"meta.object-literal.key",
 				"entity.other.attribute-name",
+				"string.regexp constant.other.character-class.set",
+				"string.regexp constant.other.character-class.range",
+				"string.regexp constant.character.set",
 				"markup.bold",
 				"markup.italic",
 				"markup.underline"

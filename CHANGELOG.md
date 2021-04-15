@@ -1,5 +1,10 @@
 # Change Log
 
+# 0.4.0
+
+### Added
+- Highlighting for RegEx strings in TS/JS and Python.
+
 # 0.3.2
 
 ### Modified
