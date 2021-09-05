@@ -79,6 +79,8 @@
 		"tab.activeForeground": "#a69f98",
 		"tab.inactiveBackground": "#17131d",
 		"tab.border": "#00000000",
+		"tab.activeBorderTop": "#483C58",
+		"tab.unfocusedActiveBorderTop": "#30283a",
 
 		"badge.background": "#5d3366",
 		"badge.foreground": "#f8eee4",
@@ -317,5 +319,22 @@
 				"foreground": "#b267e6"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"parameter": {
+			"italic": true
+		},
+		"macro": {
+			"foreground": "#ffbbdd",
+			"italic": true
+		},
+		"enumMember": {
+			"foreground": "#99dddd",
+			"italic": true
+		},
+		"variable.global": {
+			"foreground": "#ffbbdd"
+		}
+	}
 }

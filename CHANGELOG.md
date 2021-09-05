@@ -1,5 +1,15 @@
 # Change Log
 
+# 0.5.0
+
+### Added
+- Very basic support for semantic highlighting.
+  - Largely redundant because fallback TextMate scopes, but still added some
+    ones unique to semantic highlighting.
+  - Tested in C++ only so far. 
+- Top border highlight for tabs.
+- MIT Licensing for source code.
+
 # 0.4.0
 
 ### Added
