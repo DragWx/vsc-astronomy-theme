@@ -1,5 +1,15 @@
 # Change Log
 
+# 0.5.2
+
+### Added
+- Additional optional blending options
+  - Optionally specify `v` and `l` tints to have the `x1`, `x2`, `x3` tints
+    automatically generated from blending with `n`.
+  - Optionally specify the `base` color all the interpolated colors blend with.
+- Coloring for quick picker (command bar) and tooltips.
+- Coloring for links and inline code in Markdown previewer.
+
 # 0.5.1
 
 ### Modified

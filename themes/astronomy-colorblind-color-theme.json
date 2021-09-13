@@ -68,6 +68,11 @@
 		"menu.selectionForeground": "#EEEEEE",
 		"menubar.selectionBackground": "#5d3b11",
 		"menubar.selectionForeground": "#EEEEEE",
+		"quickInput.background": "#222222",
+		"quickInput.foreground": "#b2b2b2",
+		"editorHoverWidget.background": "#222222",
+		"editorHoverWidget.foreground": "#b2b2b2",
+		"editorHoverWidget.border": "#4e4e4e",
 
 		"panel.background": "#161616",
 		"panel.border": "#000000",
@@ -91,7 +96,10 @@
 		"badge.background": "#5d3b11",
 		"badge.foreground": "#EEEEEE",
 		"button.background": "#2666b2",
-		"button.foreground": "#EEEEEE"
+		"button.foreground": "#EEEEEE",
+
+		"textPreformat.foreground": "#BB7722",
+		"textLink.foreground": "#3388EE"
 	},
 	"tokenColors": [
 		{

@@ -36,16 +36,19 @@ To add a new theme to be built, modify the `palettes` variable in the `build` fu
 Inside the `src` directory are several small JSON files containing some color definitions, which are then plugged into `_template.json` to create the output theme, which VS Code uses.
 
 * `name`: This populates the "name" field in the output theme file.
-* `type`: This populates the "type" field in the output theme file, and whether the type is "light" or not will alter how interpolated colors are generated (see below)
-* `v1`, `v2`, etc: These are the **value** tints. The higher the number, the stronger the tint.
-* `l1`, `l2`, etc: These are the **logic** tints. The higher the number, the stronger the tint.
+* `type`: This populates the "type" field in the output theme file, and whether the type is "light" or not will alter how interpolated colors are generated (see next section)
 * `b`: This is the **background** color, used all over the UI.
 * `n`: This is the **neutral** color, used as the text color when there's no tinting, but also the foreground color for various UI elements.
+* `v1`, `v2`, etc: These are the **value** tints. The higher the number, the stronger the tint.
+* `l1`, `l2`, etc: These are the **logic** tints. The higher the number, the stronger the tint.
+* `base`: This is the color all of the **interpolated colors** blend towards (see next section).
+  * If not specified, this defaults to `#000000` for dark themes, and `#FFFFFF` for light themes.
 
 ### Interpolated Colors
 Several extra colors are derived from the palette file during the build process, these are **interpolated colors**.
 
 * `v1-75`: This means color `v1` at `75%`. If the theme is dark, lower percentages darken the color. If the theme is light, lower percentages lighten the color. Currently, valid percentages are 25, 33, 50, 67, and 75.
 * `negative`: This color is either black if the theme is dark, or `b-75` if the theme is light. Its intended use is for negative space and dividers in the UI.
+* You can automatically generate `v1`, `v2`, `l1`, `l2`, etc, by instead specifying a `v` color and an `l` color. The various tints will be interpolated by blending with `n`.
 
 You are free to override any interpolated colors by specifying them in the palette file directly. For example, defining `v1-25` in the palette file will override the auto-generated `v1-25`.
