@@ -1,5 +1,10 @@
 # Change Log
 
+# 0.5.3
+
+### Added
+- TS/JS `in`, `of`, `delete`, `typeof` highlighting.
+
 # 0.5.2
 
 ### Added

@@ -139,6 +139,7 @@
 				"keyword.control",
 				"keyword.operator.new",
 				"keyword.other",
+				"keyword.operator.expression",
 				"string.regexp support.other.match.begin",
 				"string.regexp support.other.match.end"
 			],
