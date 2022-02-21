@@ -1,5 +1,12 @@
 # Change Log
 
+# 0.5.4
+
+### Added
+- For Markdown:
+  - Highlighting and decoration for \~\~strikethrough text\~\~.
+  - Highlighting for text between \`backticks\`.
+
 # 0.5.3
 
 ### Added

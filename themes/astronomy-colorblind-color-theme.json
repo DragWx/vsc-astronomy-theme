@@ -118,7 +118,8 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
+				"punctuation.definition.string.end",
+				"markup.inline.raw.string"
 			],
 			"settings": {
 				"foreground": "#BB7722"
@@ -215,6 +216,7 @@
 				"punctuation.definition.bold",
 				"punctuation.definition.italic",
 				"punctuation.definition.underline",
+				"punctuation.definition.strikethrough",
 				"meta.brace.square",
 				"punctuation.definition.begin.bracket.square",
 				"punctuation.definition.end.bracket.square"
@@ -267,7 +269,8 @@
 				"string.regexp constant.character.set",
 				"markup.bold",
 				"markup.italic",
-				"markup.underline"
+				"markup.underline",
+				"markup.strikethrough"
 			],
 			"settings": {
 				"fontStyle": "",
@@ -299,6 +302,15 @@
 			],
 			"settings": {
 				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Markup: strikethrough",
+			"scope": [
+				"markup.strikethrough"
+			],
+			"settings": {
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
